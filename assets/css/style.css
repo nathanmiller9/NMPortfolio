@@ -1,0 +1,2057 @@
+body {
+	background-color: #9ac1fd;
+	background-color: white;
+	color: white;
+	/*font-family: 'Freckle Face', cursive;*/
+	/*font-family: 'Bubblegum Sans', cursive;*/
+	/*font-family: 'Chelsea Market', cursive;*/
+	/*font-family: 'Black Ops One', cursive;*/
+	/*font-family: 'Sedgwick Ave', cursive;*/
+	font-family: 'Gilda Display', serif;
+	/*background: linear-gradient(#9ac1fd , #416083); /* Standard syntax */
+}
+
+/*div, nav {
+	border-style: solid;
+	border-width: .5px;
+	border-color: red;
+}*/
+
+nav {
+	margin-top: -20px;
+	font-size: .8em;
+}
+
+#nav1 {
+	float: left;
+}
+
+.nav2 {
+	float: right;
+	padding-right: 15px;
+	color: white;
+}
+
+#nav1-text {
+	color: black;
+}
+
+#nav2-text {
+	color: #331002;
+	color: #f9fdfc;
+	font-weight: bold;
+}
+
+/*#nav4 {
+	background-color: white;
+	opacity: .3;
+}
+*/
+header {
+	height: 750px;
+	background-image: url("../images/TemescalPathSouthBay.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.opening {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.opening-text {
+	margin-top: -10px;
+	width: 74%;
+	float: left;
+}
+.name {
+	font-size: 2.8em;
+	font-family: 'Freckle Face', cursive;
+}
+
+.position {
+	padding-top: 3px;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+.left-opening-image {
+	margin-left: 2%;
+	margin-top: -35px;
+	float: left;
+	height: 180px;
+	width: 11%;
+	background-image: url("../images/SelfieSunny.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: .9;
+    border-radius: 50%;
+    clear: both;
+}
+.left2-opening-image {
+	margin-left: 2%;
+	float: left;
+	height: 100px;
+	width: 10.25%;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+#left2-opening-image {
+	background-image: url("../images/SycamoreGetty.jpg");
+}
+#left3-opening-image {
+	background-image: url("../images/NYCEmpireStateBuildingAndCrosswalk.jpg");
+}
+#left4-opening-image {
+	background-image: url("../images/PianoBronson.jpg");
+}
+#left5-opening-image {
+	background-image: url("../images/NorthEastSouthWestSunsetOceanSealBeach.jpg");
+}
+#left6-opening-image {
+	background-image: url("../images/ProtectYoHeart.jpg");
+}
+#left7-opening-image {
+	background-image: url("../images/GraffitiTruck.jpg");
+}
+#left8-opening-image {
+	background-image: url("../images/DodgerStadium42.JPG");
+}
+#left9-opening-image {
+	background-image: url("../images/CityHallFromDisneyConcertHall.jpg");
+}
+
+.photo-section {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+.photo {
+	padding-top: 20px;
+}
+
+.skills {
+	position: absolute;
+	top: 100px;
+	font-size: 2.2em;
+	width: 30px;
+	/*width: 100%;*/
+	/*color: black;*/
+}
+
+
+section {
+	height: 200px;
+	opacity: .8;
+}
+
+.photo1 {
+	height: 750px;
+	background-image: url("../images/NorthEastSouthWestSunsetOceanSealBeach.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#photo1 {
+    
+}
+
+.photo2 {
+	height: 750px;
+	background-image: url("../images/SFThreeSisters.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.photo3 {
+	height: 750px;
+	background-image: url("../images/Taylor.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.photo4 {
+	height: 750px;
+	background-image: url("../images/DodgerStadiumPregame.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.photo5 {
+	height: 750px;
+	background-image: url("../images/CapitolUnderConstruction.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.photo6 {
+	height: 750px;
+	background-image: url("../images/GoldenGateBridge.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+@media (max-width: 321.9px) {
+    header {
+        height: 585px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 10px;
+		height: 60px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: .7em;
+	}
+	.nav2 {
+		float: left;
+		padding-right: 8.5px;
+		padding-left: 8.5px;
+		color: white;
+	}
+	.name {
+		font-size: 1.6em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.2em;
+	}
+	.opening-text {
+		margin-top: 10px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 33px;
+		left: 65px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 32px;
+		left: 160px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: -12px;
+		left: 230px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 30px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 78px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 30px;
+		left: 100px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 162px;
+		left: 20px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -30px;
+		left: 165px;
+		width: 148px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 65px;
+		left: 37px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: -3px;
+		left: 137px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 175px;
+		left: 102px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 122px;
+		left: 35px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 10px;
+		left: 220px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 70px;
+		left: 190px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 105px;
+		left: 206px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -20px;
+		left: 80px;
+		width: 80px;	
+	}
+}
+
+@media (min-width: 322px) and (max-width: 361.9px) {
+    header {
+        height: 640px;
+        /*background-image: url("../images/CityHallFromDisneyConcertHall.jpg");*/
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 10px;
+		height: 60px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: .7em;
+	}
+	.nav2 {
+		float: left;
+		padding-right: 12px;
+		padding-left: 12px;
+		color: white;
+	}
+	.name {
+		font-size: 1.7em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.3em;
+	}
+	.opening-text {
+		margin-top: 10px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 24px;
+		left: 55px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 32px;
+		left: 160px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: -12px;
+		left: 230px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 40px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 108px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 58px;
+		left: 120px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 189px;
+		left: 55px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -16px;
+		left: 175px;
+		width: 148px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 85px;
+		left: 197px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 23px;
+		left: 177px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 225px;
+		left: 102px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 162px;
+		left: 35px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 55px;
+		left: 260px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 110px;
+		left: 220px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 155px;
+		left: 206px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -5px;
+		left: 90px;
+		width: 80px;	
+	}
+}
+
+@media (min-width: 362px) and (max-width: 409.9px) {
+    header {
+        height: 685px;
+        /*background-image: url("../images/CityHallFromDisneyConcertHall.jpg");*/
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 10px;
+		height: 60px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: .8em;
+	}
+	.nav2 {
+		float: left;
+		padding-right: 10.5px;
+		padding-left: 10.5px;
+		color: white;
+	}
+	.name {
+		font-size: 1.8em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.4em;
+	}
+	.opening-text {
+		margin-top: 10px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 24px;
+		left: 55px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 32px;
+		left: 160px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: -12px;
+		left: 230px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 40px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 108px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 58px;
+		left: 120px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 189px;
+		left: 55px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -16px;
+		left: 175px;
+		width: 148px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 85px;
+		left: 197px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 23px;
+		left: 177px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 225px;
+		left: 102px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 162px;
+		left: 35px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 55px;
+		left: 260px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 110px;
+		left: 220px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 155px;
+		left: 206px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -5px;
+		left: 90px;
+		width: 80px;	
+	}
+}
+
+@media (min-width: 410px) and (max-width: 448.9px) {
+    header {
+        height: 750px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 15px;
+		height: 70px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1em;
+	}
+	.nav2 {
+		float: left;
+		padding-right: 8.4px;
+		padding-left: 8.4px;
+		color: white;
+	}
+	.name {
+		font-size: 2em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.6em;
+	}
+	.opening-text {
+		margin-top: 15px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 44px;
+		left: 85px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 62px;
+		left: 220px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 0px;
+		left: 300px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 40px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 148px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 68px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 219px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -10px;
+		left: 195px;
+		width: 178px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 120px;
+		left: 245px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 13px;
+		left: 197px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 245px;
+		left: 82px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 162px;
+		left: 125px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 70px;
+		left: 310px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 140px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 195px;
+		left: 255px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -15px;
+		left: 75px;
+		width: 100px;	
+	}
+}
+
+@media (min-width: 449px) and (max-width: 599.9px) {
+    header {
+        height: 750px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 15px;
+		height: 70px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: .9em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 2%;
+		padding-left: 2%;
+		color: white;
+	}
+	.name {
+		font-size: 2em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.6em;
+	}
+	.opening-text {
+		margin-top: 15px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 44px;
+		left: 125px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 62px;
+		left: 300px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 0px;
+		left: 300px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 40px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 148px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 68px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 219px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -10px;
+		left: 195px;
+		width: 178px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 120px;
+		left: 245px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 13px;
+		left: 197px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 245px;
+		left: 82px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 162px;
+		left: 125px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 70px;
+		left: 310px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 140px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 195px;
+		left: 255px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -15px;
+		left: 75px;
+		width: 100px;	
+	}
+}
+
+@media (min-width: 600px) and (max-width: 767.9px) {
+    header {
+        height: 1250px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 15px;
+		height: 70px;
+		width: 19%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 45px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: .9em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 2%;
+		padding-left: 2%;
+		color: white;
+	}
+	.name {
+		font-size: 2em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 1.6em;
+	}
+	.opening-text {
+		margin-top: 15px;
+		width: 77%;
+	}
+	.skills {
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 44px;
+		left: 125px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 62px;
+		left: 300px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 0px;
+		left: 300px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 40px;
+		left: 10px;
+		width: 130px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 148px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 68px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 219px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: -10px;
+		left: 195px;
+		width: 178px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 120px;
+		left: 245px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 13px;
+		left: 197px;	
+		width: 140px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 245px;
+		left: 82px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 162px;
+		left: 125px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 70px;
+		left: 310px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 140px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 195px;
+		left: 255px;
+		width: 110px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -15px;
+		left: 75px;
+		width: 100px;	
+	}
+}
+
+@media (min-width: 768px) and (max-width: 799.9px) {
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1050px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 160px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 60px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.2em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4%;
+		padding-left: 4%;
+		color: white;
+	}
+	.name {
+		font-size: 3.5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 2.7em;
+	}
+	.opening-text {
+		margin-top: 45px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 144px;
+		left: 350px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 192px;
+		left: 350px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 140px;
+		left: 600px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 80px;
+		left: 40px;
+		width: 230px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 218px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 98px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 399px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 90px;
+		left: 455px;
+		width: 288px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 80px;
+		left: 245px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 170px;
+		left: 517px;	
+		width: 230px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 245px;
+		left: 242px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 112px;
+		left: 65px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 190px;
+		left: 470px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 270px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 265px;
+		left: 515px;
+		width: 180px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -5px;
+		left: 215px;
+		width: 170px;	
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1023.9px) {
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 1200px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 160px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 60px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.2em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4%;
+		padding-left: 4%;
+		color: white;
+	}
+	.name {
+		font-size: 3.5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 2.7em;
+	}
+	.opening-text {
+		margin-top: 45px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 144px;
+		left: 350px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 192px;
+		left: 350px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 140px;
+		left: 600px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 80px;
+		left: 40px;
+		width: 230px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 218px;
+		left: 43px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 98px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 399px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 90px;
+		left: 455px;
+		width: 288px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 80px;
+		left: 245px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 170px;
+		left: 517px;	
+		width: 230px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 245px;
+		left: 242px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 112px;
+		left: 65px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 190px;
+		left: 470px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 270px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 265px;
+		left: 515px;
+		width: 180px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -5px;
+		left: 215px;
+		width: 170px;	
+	}
+}
+
+/*@media (min-width: 1002px) and (max-width: 1023.9px) {
+    #forest {
+        min-height: 1200px;
+    }
+}*/
+
+@media (min-width: 1024px) and (max-width: 1025.9px) {
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 1380px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 200px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 100px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.6em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4.2%;
+		padding-left: 4.2%;
+		color: white;
+	}
+	.name {
+		font-size: 5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 3em;
+	}
+	.opening-text {
+		margin-top: 55px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2.6em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 200px;
+		left: 450px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 292px;
+		left: 500px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 150px;
+		left: 800px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 100px;
+		left: 40px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 158px;
+		left: 243px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 198px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 349px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 150px;
+		left: 555px;
+		width: 368px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 120px;
+		left: 355px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 290px;
+		left: 677px;	
+		width: 290px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 295px;
+		left: 182px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 462px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 490px;
+		left: 770px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 270px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 235px;
+		left: 580px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 15px;
+		left: 285px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1026px) and (max-width: 1399.9px) {
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 1300px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 200px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 100px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.6em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4.2%;
+		padding-left: 4.2%;
+		color: white;
+	}
+	.name {
+		font-size: 5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 3em;
+	}
+	.opening-text {
+		margin-top: 55px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2.6em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 200px;
+		left: 450px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 292px;
+		left: 500px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 150px;
+		left: 800px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 100px;
+		left: 40px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 158px;
+		left: 243px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 198px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 349px;
+		left: 25px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 150px;
+		left: 555px;
+		width: 368px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 120px;
+		left: 355px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 290px;
+		left: 677px;	
+		width: 290px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 295px;
+		left: 182px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 462px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 490px;
+		left: 770px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 270px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 235px;
+		left: 580px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 15px;
+		left: 285px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 1599.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 1400px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 300px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 150px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 2em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5%;
+		padding-left: 5%;
+		color: white;
+	}
+	.name {
+		font-size: 7em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 5em;
+	}
+	.opening-text {
+		margin-top: 55px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 3.2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 250px;
+		left: 750px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 392px;
+		left: 720px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 190px;
+		left: 1200px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 200px;
+		left: 240px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 258px;
+		left: 343px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 148px;
+		left: 980px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 379px;
+		left: 225px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 250px;
+		left: 905px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 170px;
+		left: 155px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 390px;
+		left: 877px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 295px;
+		left: 532px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 402px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 350px;
+		left: 1100px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 140px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 235px;
+		left: 510px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -135px;
+		left: 555px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 1850.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1600px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 370px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 170px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 2.2em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4.7%;
+		padding-left: 4.7%;
+		color: white;
+	}
+	.name {
+		font-size: 8em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 6em;
+	}
+	.opening-text {
+		margin-top: 55px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 3.2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 310px;
+		left: 750px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 452px;
+		left: 720px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 270px;
+		left: 1200px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 270px;
+		left: 240px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 338px;
+		left: 343px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 248px;
+		left: 1130px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 379px;
+		left: 165px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 300px;
+		left: 985px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 220px;
+		left: 755px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 340px;
+		left: 1077px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 435px;
+		left: 1072px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 552px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 520px;
+		left: 1200px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 240px;
+		left: 160px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 265px;
+		left: 510px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 20px;
+		left: 595px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1851px) and (max-width: 2189.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1600px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 50px;
+		height: 420px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 170px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 2.8em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 4.7%;
+		padding-left: 4.7%;
+		color: white;
+	}
+	.name {
+		font-size: 10em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 7em;
+	}
+	.opening-text {
+		margin-top: 115px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 3.3em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 440px;
+		left: 900px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 592px;
+		left: 990px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 370px;
+		left: 1600px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 370px;
+		left: 240px;
+		width: 400px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 388px;
+		left: 743px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 298px;
+		left: 1230px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 379px;
+		left: 165px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 360px;
+		left: 1385px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 310px;
+		left: 585px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 490px;
+		left: 1277px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 305px;
+		left: 1172px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 552px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 520px;
+		left: 1200px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 240px;
+		left: 160px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 325px;
+		left: 680px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 100px;
+		left: 735px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 2190px) 
+	{
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1600px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 50px;
+		height: 500px;
+		width: 24%;
+	}
+	.left2-opening-image {
+		margin-left: 2.2222%;
+		height: 170px;
+		width: 10%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 2.8em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5%;
+		padding-left: 5%;
+		color: white;
+	}
+	.name {
+		font-size: 10em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 7em;
+	}
+	.opening-text {
+		margin-top: 130px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 3.3em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 440px;
+		left: 1320px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 492px;
+		left: 1500px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 370px;
+		left: 1700px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 370px;
+		left: 540px;
+		width: 400px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 338px;
+		left: 1143px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 298px;
+		left: 1930px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 379px;
+		left: 465px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 360px;
+		left: 1685px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 390px;
+		left: 755px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 490px;
+		left: 1677px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 305px;
+		left: 1552px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 552px;
+		left: 315px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 520px;
+		left: 1200px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 240px;
+		left: 260px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 225px;
+		left: 980px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 0px;
+		left: 1095px;
+		width: 230px;	
+	}
+}
