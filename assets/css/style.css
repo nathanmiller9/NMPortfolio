@@ -1527,9 +1527,141 @@ section {
 	}
 }
 
-@media (min-width: 1400px) and (max-width: 1599.9px) {
+@media (min-width: 1400px) and (max-width: 1535.9px) {
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        min-height: 1400px;
+        height: 900px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 4%;
+		margin-top: 30px;
+		height: 150px;
+		width: 12%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 100px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.3em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 6%;
+		padding-left: 6%;
+		color: white;
+	}
+	.name {
+		font-size: 5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 3.7em;
+	}
+	.opening-text {
+		margin-top: 25px;
+		width: 84%;
+	}
+	.skills {
+		font-size: 2.2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 150px;
+		left: 600px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 212px;
+		left: 720px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 90px;
+		left: 1100px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 80px;
+		left: 190px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 258px;
+		left: 343px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 68px;
+		left: 980px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 79px;
+		left: 225px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 120px;
+		left: 905px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 70px;
+		left: 75px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 210px;
+		left: 1077px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 145px;
+		left: 432px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 82px;
+		left: 125px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 50px;
+		left: 870px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 110px;
+		left: 210px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 55px;
+		left: 510px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: -135px;
+		left: 555px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1536px) and (max-width: 1599.9px) {
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 900px;
     }
     .photo-section {
 		bottom: 40px;
