@@ -1530,7 +1530,7 @@ section {
 
 @media (min-width: 1280px) and (max-width: 1365.9px) {
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        min-height: 802px;
+        min-height: 902px;
     }
     .photo-section {
 		bottom: 40px;
