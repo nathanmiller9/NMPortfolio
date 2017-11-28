@@ -153,6 +153,7 @@ section {
 	background-image: url("../images/NorthEastSouthWestSunsetOceanSealBeach.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
+    z-index: 2;
 }
 
 #photo1 {
@@ -862,22 +863,22 @@ section {
 }
 
 @media (min-width: 600px) and (max-width: 767.9px) {
-    header {
-        height: 1250px;
+    header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 800px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
-		margin-top: 15px;
-		height: 70px;
-		width: 19%;
+		margin-left: 8%;
+		margin-top: 20px;
+		height: 90px;
+		width: 8%;
 	}
 	.left2-opening-image {
 		margin-left: 4%;
-		height: 45px;
+		height: 60px;
 		width: 8%;
 	}
 	nav {
@@ -887,20 +888,20 @@ section {
 	}
 	.nav2 {
 		float: right;
-		padding-right: 2%;
-		padding-left: 2%;
+		padding-right: 4.5%;
+		padding-left: 4.5%;
 		color: white;
 	}
 	.name {
-		font-size: 2em;
+		font-size: 3.2em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 1.6em;
+		font-size: 2em;
 	}
 	.opening-text {
 		margin-top: 15px;
-		width: 77%;
+		width: 72%;
 	}
 	.skills {
 		font-size: 1.3em;
@@ -908,92 +909,92 @@ section {
 	}
 	.skills-section {
 		position: relative;
-		top: 44px;
-		left: 125px;	
+		top: 70px;
+		left: 250px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 62px;
+		top: 122px;
 		left: 300px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 0px;
-		left: 300px;	
+		top: 50px;
+		left: 410px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 40px;
-		left: 10px;
-		width: 130px;	
+		top: 30px;
+		left: 0px;
+		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 148px;
-		left: 43px;	
+		top: 138px;
+		left: 283px;	
 	}
 	.skills-section-6 {
 		position: relative;
-		top: 68px;
-		left: 80px;
+		top: 78px;
+		left: 90px;
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 219px;
-		left: 25px;	
+		top: 159px;
+		left: 55px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: -10px;
-		left: 195px;
-		width: 178px;	
+		top: 40px;
+		left: 285px;
+		width: 368px;	
 	}
 	.skills-section-9 {
 		position: relative;
-		top: 120px;
-		left: 245px;
+		top: 210px;
+		left: 65px;
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 13px;
-		left: 197px;	
-		width: 140px;
+		top: 110px;
+		left: 297px;	
+		width: 290px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 245px;
-		left: 82px;	
+		top: 225px;
+		left: 152px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 162px;
-		left: 125px;	
+		top: 262px;
+		left: 215px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 70px;
-		left: 310px;	
+		top: 110px;
+		left: 500px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 140px;
-		left: 260px;	
+		top: 260px;
+		left: 480px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 195px;
-		left: 255px;
-		width: 110px;	
+		top: 145px;
+		left: 280px;
+		width: 280px;	
 	}
 	.skills-section-16 {
 		position: relative;
-		top: -15px;
-		left: 75px;
-		width: 100px;	
+		top: 45px;
+		left: 165px;
+		width: 230px;	
 	}
 }
 
-@media (min-width: 768px) and (max-width: 799.9px) {
+@media (min-width: 768px) and (max-width: 771.9px) {
     header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
         height: 1050px;
     }
@@ -1125,135 +1126,135 @@ section {
 	}
 }
 
-@media (min-width: 800px) and (max-width: 1023.9px) {
+@media (min-width: 772px) and (max-width: 1023.9px) {
     header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        min-height: 1200px;
+        min-height: 800px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
+		margin-left: 8%;
 		margin-top: 30px;
-		height: 160px;
-		width: 24%;
+		height: 120px;
+		width: 8%;
 	}
 	.left2-opening-image {
-		margin-left: 2.2222%;
+		margin-left: 4%;
 		height: 60px;
-		width: 10%;
+		width: 8%;
 	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 4%;
-		padding-left: 4%;
+		padding-right: 4.5%;
+		padding-left: 4.5%;
 		color: white;
 	}
 	.name {
-		font-size: 3.5em;
+		font-size: 3.8em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 2.7em;
+		font-size: 2.5em;
 	}
 	.opening-text {
-		margin-top: 45px;
+		margin-top: 25px;
 		width: 72%;
 	}
 	.skills {
-		font-size: 2em;
+		font-size: 1.3em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 144px;
+		top: 100px;
 		left: 350px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 192px;
-		left: 350px;	
+		top: 172px;
+		left: 400px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 140px;
-		left: 600px;	
+		top: 70px;
+		left: 560px;	
 	}
 	.skills-section-4 {
 		position: relative;
 		top: 80px;
-		left: 40px;
-		width: 230px;	
+		left: 10px;
+		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 218px;
-		left: 43px;	
+		top: 138px;
+		left: 283px;	
 	}
 	.skills-section-6 {
 		position: relative;
-		top: 98px;
-		left: 80px;
+		top: 128px;
+		left: 90px;
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 399px;
-		left: 25px;	
+		top: 209px;
+		left: 85px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: 90px;
-		left: 455px;
-		width: 288px;	
+		top: 80px;
+		left: 415px;
+		width: 368px;	
 	}
 	.skills-section-9 {
 		position: relative;
-		top: 80px;
-		left: 245px;
+		top: 130px;
+		left: 265px;
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 170px;
-		left: 517px;	
-		width: 230px;
+		top: 160px;
+		left: 477px;	
+		width: 290px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 245px;
-		left: 242px;	
+		top: 225px;
+		left: 152px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 112px;
-		left: 65px;	
+		top: 262px;
+		left: 215px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 190px;
-		left: 470px;	
+		top: 180px;
+		left: 300px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 270px;
-		left: 260px;	
+		top: 220px;
+		left: 620px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 265px;
-		left: 515px;
-		width: 180px;	
+		top: 155px;
+		left: 360px;
+		width: 280px;	
 	}
 	.skills-section-16 {
 		position: relative;
-		top: -5px;
-		left: 215px;
-		width: 170px;	
+		top: 45px;
+		left: 235px;
+		width: 230px;	
 	}
 }
 
@@ -1265,95 +1266,95 @@ section {
 
 @media (min-width: 1024px) and (max-width: 1025.9px) {
     header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        min-height: 1380px;
+        min-height: 768px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
+		margin-left: 8%;
 		margin-top: 30px;
-		height: 200px;
-		width: 24%;
+		height: 100px;
+		width: 8%;
 	}
 	.left2-opening-image {
-		margin-left: 2.2222%;
-		height: 100px;
-		width: 10%;
+		margin-left: 4%;
+		height: 60px;
+		width: 8%;
 	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 1.6em;
+		font-size: 1em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 4.2%;
-		padding-left: 4.2%;
+		padding-right: 5.7%;
+		padding-left: 5.7%;
 		color: white;
 	}
 	.name {
-		font-size: 5em;
+		font-size: 3.8em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 3em;
+		font-size: 2.4em;
 	}
 	.opening-text {
-		margin-top: 55px;
-		width: 72%;
+		margin-top: 20px;
+		width: 84%;
 	}
 	.skills {
-		font-size: 2.6em;
+		font-size: 1.5em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 200px;
+		top: 100px;
 		left: 450px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 292px;
-		left: 500px;	
+		top: 162px;
+		left: 560px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 150px;
+		top: 80px;
 		left: 800px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 100px;
+		top: 40px;
 		left: 40px;
 		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 158px;
+		top: 78px;
 		left: 243px;	
 	}
 	.skills-section-6 {
 		position: relative;
-		top: 198px;
+		top: 118px;
 		left: 80px;
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 349px;
+		top: 199px;
 		left: 25px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: 150px;
-		left: 555px;
+		top: 90px;
+		left: 595px;
 		width: 368px;	
 	}
 	.skills-section-9 {
 		position: relative;
-		top: 120px;
-		left: 355px;
+		top: 50px;
+		left: 405px;
 	}
 	.skills-section-10 {
 		position: relative;
@@ -1363,28 +1364,28 @@ section {
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 295px;
-		left: 182px;	
+		top: 65px;
+		left: 232px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 462px;
+		top: 202px;
 		left: 215px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 490px;
-		left: 770px;	
+		top: 60px;
+		left: 830px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 270px;
-		left: 260px;	
+		top: 170px;
+		left: 380px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 235px;
-		left: 580px;
+		top: 75px;
+		left: 540px;
 		width: 280px;	
 	}
 	.skills-section-16 {
@@ -1395,19 +1396,284 @@ section {
 	}
 }
 
-@media (min-width: 1026px) and (max-width: 1399.9px) {
+@media (min-width: 1026px) and (max-width: 1279.9px) {
     header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        min-height: 1300px;
+        min-height: 800px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
+		margin-left: 8%;
 		margin-top: 30px;
-		height: 200px;
-		width: 24%;
+		height: 120px;
+		width: 8%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 60px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.1em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5.5%;
+		padding-left: 5.5%;
+		color: white;
+	}
+	.name {
+		font-size: 3.8em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 2.5em;
+	}
+	.opening-text {
+		margin-top: 25px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 100px;
+		left: 450px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 172px;
+		left: 500px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 70px;
+		left: 800px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 50px;
+		left: 40px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 78px;
+		left: 283px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 88px;
+		left: 130px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 149px;
+		left: 125px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 50px;
+		left: 605px;
+		width: 368px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 80px;
+		left: 355px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 120px;
+		left: 677px;	
+		width: 290px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 155px;
+		left: 152px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 202px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 190px;
+		left: 770px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 120px;
+		left: 650px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 155px;
+		left: 280px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 15px;
+		left: 345px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1365.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 802px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 8%;
+		margin-top: 30px;
+		height: 120px;
+		width: 8%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 70px;
+		width: 8%;
+		z-index: 1;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.2em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5.75%;
+		padding-left: 5.75%;
+		color: white;
+	}
+	.name {
+		font-size: 3.6em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 2.3em;
+	}
+	.opening-text {
+		margin-top: 35px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 120px;
+		left: 550px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 122px;
+		left: 800px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 110px;
+		left: 1000px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 80px;
+		left: 220px;
+		width: 290px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 108px;
+		left: 163px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 198px;
+		left: 80px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 289px;
+		left: 125px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 45px;
+		left: 415px;
+		width: 368px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 110px;
+		left: 345px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 30px;
+		left: 777px;	
+		width: 290px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 25px;
+		left: 1152px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 82px;
+		left: 1015px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 230px;
+		left: 920px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 110px;
+		left: 770px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 75px;
+		left: 420px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 145px;
+		left: 285px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1366px) and (max-width: 1399.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        min-height: 772px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 8%;
+		margin-top: 30px;
+		height: 180px;
+		width: 16%;
 	}
 	.left2-opening-image {
 		margin-left: 2.2222%;
@@ -1417,54 +1683,54 @@ section {
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 1.6em;
+		font-size: 1.2em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 4.2%;
-		padding-left: 4.2%;
+		padding-right: 6%;
+		padding-left: 6%;
 		color: white;
 	}
 	.name {
-		font-size: 5em;
+		font-size: 4em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 3em;
+		font-size: 2.7em;
 	}
 	.opening-text {
 		margin-top: 55px;
-		width: 72%;
+		width: 76%;
 	}
 	.skills {
-		font-size: 2.6em;
+		font-size: 1.8em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 200px;
-		left: 450px;	
+		top: 150px;
+		left: 650px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 292px;
-		left: 500px;	
+		top: 152px;
+		left: 900px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 150px;
-		left: 800px;	
+		top: 140px;
+		left: 1100px;	
 	}
 	.skills-section-4 {
 		position: relative;
 		top: 100px;
-		left: 40px;
+		left: 270px;
 		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
 		top: 158px;
-		left: 243px;	
+		left: 203px;	
 	}
 	.skills-section-6 {
 		position: relative;
@@ -1473,13 +1739,13 @@ section {
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 349px;
-		left: 25px;	
+		top: 249px;
+		left: 125px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: 150px;
-		left: 555px;
+		top: 65px;
+		left: 275px;
 		width: 368px;	
 	}
 	.skills-section-9 {
@@ -1489,34 +1755,34 @@ section {
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 290px;
-		left: 677px;	
+		top: 30px;
+		left: 777px;	
 		width: 290px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 295px;
-		left: 182px;	
+		top: 5px;
+		left: 1182px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 462px;
-		left: 215px;	
+		top: 62px;
+		left: 1115px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 490px;
-		left: 770px;	
+		top: 90px;
+		left: 970px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 270px;
-		left: 260px;	
+		top: -40px;
+		left: 560px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 235px;
-		left: 580px;
+		top: 35px;
+		left: 520px;
 		width: 280px;	
 	}
 	.skills-section-16 {
@@ -1525,7 +1791,9 @@ section {
 		left: 285px;
 		width: 230px;	
 	}
+
 }
+
 
 @media (min-width: 1400px) and (max-width: 1535.9px) {
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
@@ -1553,8 +1821,8 @@ section {
 	}
 	.nav2 {
 		float: right;
-		padding-right: 6%;
-		padding-left: 6%;
+		padding-right: 5.8%;
+		padding-left: 5.8%;
 		color: white;
 	}
 	.name {
@@ -1566,7 +1834,7 @@ section {
 	}
 	.opening-text {
 		margin-top: 25px;
-		width: 84%;
+		width: 72%;
 	}
 	.skills {
 		font-size: 2.2em;
@@ -1659,9 +1927,9 @@ section {
 	}
 }
 
-@media (min-width: 1536px) and (max-width: 1599.9px) {
+@media (min-width: 1536px) and (max-width: 1539.9px) {
     header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        height: 900px;
+        height: 868px;
     }
     .photo-section {
 		bottom: 40px;
@@ -1669,19 +1937,19 @@ section {
 	}
 	.left-opening-image {
 		margin-left: 4%;
-		margin-top: 30px;
-		height: 300px;
-		width: 24%;
+		margin-top: 40px;
+		height: 150px;
+		width: 12%;
 	}
 	.left2-opening-image {
-		margin-left: 2.2222%;
-		height: 150px;
-		width: 10%;
+		margin-left: 4%;
+		height: 110px;
+		width: 8%;
 	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	.nav2 {
 		float: right;
@@ -1690,87 +1958,87 @@ section {
 		color: white;
 	}
 	.name {
-		font-size: 7em;
+		font-size: 5em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 5em;
+		font-size: 3.3em;
 	}
 	.opening-text {
-		margin-top: 55px;
-		width: 72%;
+		margin-top: 45px;
+		width: 84%;
 	}
 	.skills {
-		font-size: 3.2em;
+		font-size: 2.4em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 250px;
+		top: 170px;
 		left: 750px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 392px;
-		left: 720px;	
+		top: 192px;
+		left: 570px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 190px;
+		top: 120px;
 		left: 1200px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 200px;
+		top: 80px;
 		left: 240px;
 		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 258px;
+		top: 178px;
 		left: 343px;	
 	}
 	.skills-section-6 {
 		position: relative;
-		top: 148px;
+		top: 48px;
 		left: 980px;
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 379px;
-		left: 225px;	
+		top: 49px;
+		left: 75px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: 250px;
-		left: 905px;
+		top: 85px;
+		left: 1005px;
 		width: 468px;	
 	}
 	.skills-section-9 {
 		position: relative;
-		top: 170px;
+		top: 90px;
 		left: 155px;
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 390px;
+		top: 120px;
 		left: 877px;	
 		width: 390px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 295px;
-		left: 532px;	
+		top: 55px;
+		left: 362px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 402px;
-		left: 215px;	
+		top: 102px;
+		left: 105px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 350px;
-		left: 1100px;	
+		top: 80px;
+		left: 1250px;	
 	}
 	.skills-section-14 {
 		position: relative;
@@ -1779,88 +2047,88 @@ section {
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 235px;
+		top: -20px;
 		left: 510px;
 		width: 280px;	
 	}
 	.skills-section-16 {
 		position: relative;
-		top: -135px;
-		left: 555px;
+		top: -185px;
+		left: 575px;
 		width: 230px;	
 	}
 }
 
-@media (min-width: 1600px) and (max-width: 1850.9px) {
+@media (min-width: 1540px) and (max-width: 1679.9px) {
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        height: 1600px;
+        height: 900px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
-		margin-top: 30px;
-		height: 370px;
-		width: 24%;
+		margin-left: 8%;
+		margin-top: 50px;
+		height: 170px;
+		width: 8%;
 	}
 	.left2-opening-image {
-		margin-left: 2.2222%;
-		height: 170px;
-		width: 10%;
+		margin-left: 4%;
+		height: 90px;
+		width: 8%;
 	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 2.2em;
+		font-size: 1.4em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 4.7%;
-		padding-left: 4.7%;
+		padding-right: 6%;
+		padding-left: 6%;
 		color: white;
 	}
 	.name {
-		font-size: 8em;
+		font-size: 5em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 6em;
+		font-size: 3.2em;
 	}
 	.opening-text {
-		margin-top: 55px;
+		margin-top: 45px;
 		width: 72%;
 	}
 	.skills {
-		font-size: 3.2em;
+		font-size: 1.9em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 310px;
+		top: 160px;
 		left: 750px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 452px;
-		left: 720px;	
+		top: 172px;
+		left: 950px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 270px;
+		top: 150px;
 		left: 1200px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 270px;
+		top: 130px;
 		left: 240px;
 		width: 290px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 338px;
-		left: 343px;	
+		top: 238px;
+		left: 243px;	
 	}
 	.skills-section-6 {
 		position: relative;
@@ -1869,7 +2137,7 @@ section {
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 379px;
+		top: 279px;
 		left: 165px;	
 	}
 	.skills-section-8 {
@@ -1880,62 +2148,327 @@ section {
 	}
 	.skills-section-9 {
 		position: relative;
-		top: 220px;
-		left: 755px;
+		top: 100px;
+		left: 555px;
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 340px;
+		top: 40px;
 		left: 1077px;	
 		width: 390px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 435px;
-		left: 1072px;	
+		top: 35px;
+		left: 972px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 552px;
-		left: 215px;	
+		top: -52px;
+		left: 715px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 520px;
-		left: 1200px;	
+		top: 240px;
+		left: 1040px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 240px;
-		left: 160px;	
+		top: 180px;
+		left: 270px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 265px;
+		top: 125px;
 		left: 510px;
 		width: 280px;	
 	}
 	.skills-section-16 {
 		position: relative;
-		top: 20px;
-		left: 595px;
+		top: -30px;
+		left: 600px;
 		width: 230px;	
 	}
 }
 
-@media (min-width: 1851px) and (max-width: 2189.9px) {
+@media (min-width: 1680px) and (max-width: 1919.9px) {
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        height: 1600px;
+        height: 1050px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
+		margin-left: 8%;
+		margin-top: 30px;
+		height: 180px;
+		width: 8%;
+	}
+	.left2-opening-image {
 		margin-left: 4%;
+		height: 130px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.6em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5.5%;
+		padding-left: 5.5%;
+		color: white;
+	}
+	.name {
+		font-size: 5em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 3.5em;
+	}
+	.opening-text {
+		margin-top: 35px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 160px;
+		left: 800px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 222px;
+		left: 890px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 120px;
+		left: 1200px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 90px;
+		left: 250px;
+		width: 400px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 168px;
+		left: 543px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 168px;
+		left: 1430px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 129px;
+		left: 165px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 320px;
+		left: 1185px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 310px;
+		left: 585px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 40px;
+		left: 1057px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 105px;
+		left: 1352px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 102px;
+		left: 215px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 20px;
+		left: 500px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 140px;
+		left: 160px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 35px;
+		left: 580px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 50px;
+		left: 935px;
+		width: 230px;	
+	}
+}
+
+@media (min-width: 1920px) and (max-width: 1923.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1080px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 8%;
 		margin-top: 50px;
-		height: 420px;
-		width: 24%;
+		height: 170px;
+		width: 8%;
+	}
+	.left2-opening-image {
+		margin-left: 4%;
+		height: 130px;
+		width: 8%;
+	}
+	nav {
+		height: 12px;
+		margin-top: -15px;
+		font-size: 1.8em;
+	}
+	.nav2 {
+		float: right;
+		padding-right: 5.7%;
+		padding-left: 5.7%;
+		color: white;
+	}
+	.name {
+		font-size: 6em;
+	}
+	.position {
+		padding-top: 6px;
+		font-size: 4.3em;
+	}
+	.opening-text {
+		margin-top: 35px;
+		width: 72%;
+	}
+	.skills {
+		font-size: 2.2em;
+		font-weight: bold;
+	}
+	.skills-section {
+		position: relative;
+		top: 240px;
+		left: 900px;	
+	}
+	.skills-section-2 {
+		position: relative;
+		top: 292px;
+		left: 990px;	
+	}
+	.skills-section-3 {
+		position: relative;
+		top: 170px;
+		left: 1300px;	
+	}
+	.skills-section-4 {
+		position: relative;
+		top: 170px;
+		left: 440px;
+		width: 400px;	
+	}
+	.skills-section-5 {
+		position: relative;
+		top: 208px;
+		left: 743px;	
+	}
+	.skills-section-6 {
+		position: relative;
+		top: 178px;
+		left: 1230px;
+	}
+	.skills-section-7 {
+		position: relative;
+		top: 159px;
+		left: 165px;	
+	}
+	.skills-section-8 {
+		position: relative;
+		top: 80px;
+		left: 1385px;
+		width: 468px;	
+	}
+	.skills-section-9 {
+		position: relative;
+		top: 370px;
+		left: 525px;
+	}
+	.skills-section-10 {
+		position: relative;
+		top: 160px;
+		left: 1477px;	
+		width: 390px;
+	}
+	.skills-section-11 {
+		position: relative;
+		top: 305px;
+		left: 1172px;	
+	}
+	.skills-section-12 {
+		position: relative;
+		top: 82px;
+		left: 875px;	
+	}
+	.skills-section-13 {
+		position: relative;
+		top: 220px;
+		left: 1500px;	
+	}
+	.skills-section-14 {
+		position: relative;
+		top: 60px;
+		left: 160px;	
+	}
+	.skills-section-15 {
+		position: relative;
+		top: 5px;
+		left: 410px;
+		width: 280px;	
+	}
+	.skills-section-16 {
+		position: relative;
+		top: 100px;
+		left: 735px;
+		width: 230px;	
+	}
+
+}
+
+@media (min-width: 1924px) and (max-width: 2189.9px) {
+	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
+        height: 1080px;
+    }
+    .photo-section {
+		bottom: 40px;
+		width: 100%;
+	}
+	.left-opening-image {
+		margin-left: 8%;
+		margin-top: 50px;
+		height: 220px;
+		width: 8%;
 	}
 	.left2-opening-image {
 		margin-left: 2.2222%;
@@ -1945,68 +2478,68 @@ section {
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 2.8em;
+		font-size: 1.8em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 4.7%;
-		padding-left: 4.7%;
+		padding-right: 5.7%;
+		padding-left: 5.7%;
 		color: white;
 	}
 	.name {
-		font-size: 10em;
+		font-size: 6em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 7em;
+		font-size: 4.3em;
 	}
 	.opening-text {
-		margin-top: 115px;
-		width: 72%;
+		margin-top: 45px;
+		width: 84%;
 	}
 	.skills {
-		font-size: 3.3em;
+		font-size: 2.2em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 440px;
+		top: 240px;
 		left: 900px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 592px;
-		left: 990px;	
+		top: 242px;
+		left: 1190px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 370px;
-		left: 1600px;	
+		top: 180px;
+		left: 1400px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 370px;
-		left: 240px;
+		top: 140px;
+		left: 320px;
 		width: 400px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 388px;
-		left: 743px;	
+		top: 208px;
+		left: 703px;	
 	}
 	.skills-section-6 {
 		position: relative;
 		top: 298px;
-		left: 1230px;
+		left: 1300px;
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 379px;
-		left: 165px;	
+		top: 179px;
+		left: 265px;	
 	}
 	.skills-section-8 {
 		position: relative;
-		top: 360px;
+		top: 410px;
 		left: 1385px;
 		width: 468px;	
 	}
@@ -2017,39 +2550,39 @@ section {
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 490px;
-		left: 1277px;	
+		top: 160px;
+		left: 1477px;	
 		width: 390px;
 	}
 	.skills-section-11 {
 		position: relative;
-		top: 305px;
+		top: 325px;
 		left: 1172px;	
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 552px;
+		top: 112px;
 		left: 215px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 520px;
+		top: 130px;
 		left: 1200px;	
 	}
 	.skills-section-14 {
 		position: relative;
-		top: 240px;
-		left: 160px;	
+		top: 160px;
+		left: 260px;	
 	}
 	.skills-section-15 {
 		position: relative;
-		top: 325px;
-		left: 680px;
+		top: 5px;
+		left: 720px;
 		width: 280px;	
 	}
 	.skills-section-16 {
 		position: relative;
-		top: 100px;
+		top: 130px;
 		left: 735px;
 		width: 230px;	
 	}
