@@ -98,6 +98,43 @@ header {
     background-repeat: no-repeat;
     border-radius: 50%;
 }
+.about {
+	margin-top: 100px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-image {
+	/*float: left;
+	clear: both;*/
+	margin-left: 6%;
+	margin-top: 200px;
+	height: 180px;
+	width: 11%;
+    border-radius: 50%;
+    /*background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/SelfieSunny.jpg");*/
+    opacity: .75;
+}
+
+.about-heading {
+	font-size: 1.7em;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.about-writeup {
+	margin-top: -320px;
+	margin-left: 17.5%;
+	margin-right: ;
+	line-height: 1.5;
+	width: 80%;
+	font-size: 1.4em;
+	opacity: 1;
+	font-weight: bold;
+}
+
 #left2-opening-image {
 	background-image: url("../images/SycamoreGetty.jpg");
 }
@@ -229,6 +266,33 @@ section {
 		padding-right: 8.5px;
 		padding-left: 8.5px;
 		color: white;
+	}
+
+	.photo1 {
+		height: 750px;
+		background-image: url("../images/PianoBronson.jpg");
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    z-index: 2;
+	}
+
+	.about-image {
+	    display: none;
+	}
+
+	.about-heading {
+		font-size: 1em;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.about-writeup {
+		margin-top: 100px;
+		margin-left: 5%;
+		margin-right: auto;
+		line-height: 1.5;
+		width: 60%;
+		font-size: .7em;
+		opacity: 1;
 	}
 	.name {
 		font-size: 1.6em;
@@ -363,6 +427,30 @@ section {
 		padding-left: 12px;
 		color: white;
 	}
+	.about-image {
+	    display: none;
+	}
+	.photo1 {
+		height: 750px;
+		background-image: url("../images/PianoBronson.jpg");
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    z-index: 2;
+	}
+	.about-heading {
+		font-size: 1em;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.about-writeup {
+		margin-top: 100px;
+		margin-left: 5%;
+		margin-right: auto;
+		line-height: 1.5;
+		width: 60%;
+		font-size: .7em;
+		opacity: 1;
+	}
 	.name {
 		font-size: 1.7em;
 	}
@@ -484,6 +572,31 @@ section {
 		margin-left: 4%;
 		height: 45px;
 		width: 8%;
+	}
+	.about-image {
+	    display: none;
+	}
+	.photo1 {
+		height: 750px;
+		background-image: url("../images/PianoBronson.jpg");
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    z-index: 2;
+	}
+	.about-heading {
+		font-size: 1.3em;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.about-writeup {
+		margin-top: -70px;
+		margin-left: -2%;
+		margin-right: auto;
+		line-height: 1.6;
+		width: 67%;
+		font-size: .9em;
+		opacity: 1;
+		font-weight: bold;
 	}
 	nav {
 		height: 12px;
@@ -628,6 +741,31 @@ section {
 		padding-left: 8.4px;
 		color: white;
 	}
+	.about-image {
+	    display: none;
+	}
+	.photo1 {
+		height: 750px;
+		background-image: url("../images/PianoBronson.jpg");
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    z-index: 2;
+	}
+	.about-heading {
+		font-size: 1.3em;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.about-writeup {
+		margin-top: -70px;
+		margin-left: -2%;
+		margin-right: auto;
+		line-height: 1.6;
+		width: 67%;
+		font-size: .9em;
+		opacity: 1;
+		font-weight: bold;
+	}
 	.name {
 		font-size: 2em;
 	}
@@ -759,6 +897,31 @@ section {
 		padding-right: 2%;
 		padding-left: 2%;
 		color: white;
+	}
+	.about-image {
+	    display: none;
+	}
+	.photo1 {
+		height: 750px;
+		background-image: url("../images/PianoBronson.jpg");
+		background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    z-index: 2;
+	}
+	.about-heading {
+		font-size: 1.3em;
+		text-align: left;
+		padding-bottom: 10px;
+	}
+	.about-writeup {
+		margin-top: -70px;
+		margin-left: -2%;
+		margin-right: auto;
+		line-height: 1.6;
+		width: 67%;
+		font-size: .9em;
+		opacity: 1;
+		font-weight: bold;
 	}
 	.name {
 		font-size: 2em;
@@ -2210,6 +2373,9 @@ section {
 		height: 130px;
 		width: 8%;
 	}
+	.about {
+		margin-top: 130px;
+	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
@@ -2353,6 +2519,9 @@ section {
 		padding-left: 5.7%;
 		color: white;
 	}
+	.about {
+		margin-top: 130px;
+	}
 	.name {
 		font-size: 6em;
 	}
@@ -2475,6 +2644,23 @@ section {
 		height: 170px;
 		width: 10%;
 	}
+	.about {
+		margin-top: 130px;
+	}
+
+	.about-image {
+		margin-top: 200px;
+		height: 180px;
+		width: 11%;
+	}
+
+	.about-heading {
+		font-size: 1.8em;
+	}
+	.about-writeup {
+		line-height: 1.5;
+		font-size: 2.2em;
+	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
@@ -2591,74 +2777,91 @@ section {
 @media (min-width: 2190px) 
 	{
 	header, .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7 {
-        height: 1600px;
+        height: 1080px;
     }
     .photo-section {
 		bottom: 40px;
 		width: 100%;
 	}
 	.left-opening-image {
-		margin-left: 4%;
+		margin-left: 8%;
 		margin-top: 50px;
-		height: 500px;
-		width: 24%;
+		height: 200px;
+		width: 8%;
 	}
 	.left2-opening-image {
-		margin-left: 2.2222%;
-		height: 170px;
-		width: 10%;
+		margin-left: 4%;
+		height: 100px;
+		width: 8%;
+	}
+	.about {
+		margin-top: 110px;
+	}
+
+	.about-image {
+		margin-top: 200px;
+		height: 180px;
+		width: 11%;
+	}
+
+	.about-heading {
+		font-size: 2.3em;
+	}
+	.about-writeup {
+		line-height: 1.9;
+		font-size: 2.1em;
 	}
 	nav {
 		height: 12px;
 		margin-top: -15px;
-		font-size: 2.8em;
+		font-size: 1.4em;
 	}
 	.nav2 {
 		float: right;
-		padding-right: 5%;
-		padding-left: 5%;
+		padding-right: 6.4%;
+		padding-left: 6.4%;
 		color: white;
 	}
 	.name {
-		font-size: 10em;
+		font-size: 6em;
 	}
 	.position {
 		padding-top: 6px;
-		font-size: 7em;
+		font-size: 4.5em;
 	}
 	.opening-text {
-		margin-top: 130px;
+		margin-top: 50px;
 		width: 72%;
 	}
 	.skills {
-		font-size: 3.3em;
+		font-size: 2em;
 		font-weight: bold;
 	}
 	.skills-section {
 		position: relative;
-		top: 440px;
-		left: 1320px;	
+		top: 240px;
+		left: 1020px;	
 	}
 	.skills-section-2 {
 		position: relative;
-		top: 492px;
-		left: 1500px;	
+		top: 312px;
+		left: 1100px;	
 	}
 	.skills-section-3 {
 		position: relative;
-		top: 370px;
+		top: 200px;
 		left: 1700px;	
 	}
 	.skills-section-4 {
 		position: relative;
-		top: 370px;
-		left: 540px;
+		top: 200px;
+		left: 340px;
 		width: 400px;	
 	}
 	.skills-section-5 {
 		position: relative;
-		top: 338px;
-		left: 1143px;	
+		top: 238px;
+		left: 1443px;	
 	}
 	.skills-section-6 {
 		position: relative;
@@ -2667,8 +2870,8 @@ section {
 	}
 	.skills-section-7 {
 		position: relative;
-		top: 379px;
-		left: 465px;	
+		top: 309px;
+		left: 265px;	
 	}
 	.skills-section-8 {
 		position: relative;
@@ -2683,7 +2886,7 @@ section {
 	}
 	.skills-section-10 {
 		position: relative;
-		top: 490px;
+		top: 440px;
 		left: 1677px;	
 		width: 390px;
 	}
@@ -2694,13 +2897,13 @@ section {
 	}
 	.skills-section-12 {
 		position: relative;
-		top: 552px;
-		left: 315px;	
+		top: 152px;
+		left: 615px;	
 	}
 	.skills-section-13 {
 		position: relative;
-		top: 520px;
-		left: 1200px;	
+		top: 20px;
+		left: 750px;	
 	}
 	.skills-section-14 {
 		position: relative;
@@ -2716,7 +2919,7 @@ section {
 	.skills-section-16 {
 		position: relative;
 		top: 0px;
-		left: 1095px;
+		left: 945px;
 		width: 230px;	
 	}
 }
